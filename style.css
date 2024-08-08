@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 2vh;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    background-color: black;
+    
+}
+
+.mainContainer{
+
+    width: 30%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    padding-top: 50px;
+    transition: all 1s ease ;
+
+}
+
+.currentTurn{
+
+    width: 30%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    
+}
+.firstRow , .secondRow , .thirdRow{
+
+    display: flex;
+    width: 80%;
+    height: 25%;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+
+}
+
+.box{
+
+    width: 80%;
+    height: 100%;
+    background-color: grey;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(2 , 2 , 2 , rgba(0 0 0 0.7));
+}
+
+#Obj{
+
+    margin: 10px;
+    padding: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.result{
+
+    display: none;
+    width: 500px;
+    height: 130px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: grey;
+    border-radius: 12px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    
+}
+
+button{
+
+    background-color: rgba(0 0 0 0.7);
+    border-radius: 12px;
+    font-weight: bold;
+}
